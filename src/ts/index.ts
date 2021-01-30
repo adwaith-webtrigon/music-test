@@ -53,6 +53,5 @@ function playMusic() {
     }
 
     playNote(); //calling a recursive function
-
 }
 document.getElementById('start-playing')?.addEventListener('click', playMusic);
