@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple test to play music based on events sent by an RxJS stream",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
@@ -10,6 +11,7 @@
   },
   "author": "Webtrigon Technologies Pvt. Ltd.",
   "devDependencies": {
+    "@types/node": "^14.14.25",
     "ts-loader": "^7.0.2",
     "typescript": "^3.8.3",
     "webpack": "^4.43.0",
