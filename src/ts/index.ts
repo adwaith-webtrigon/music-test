@@ -1,7 +1,7 @@
 import { notesToPlayInOrder } from "./music-to-play";
 import { Pitch, Accidental, BEATS_PER_MINUTE} from "./musical-score";
 
-const notes = notesToPlayInOrder;
+const notes: any[] = notesToPlayInOrder;
 
 function playMusic() {
     playNotes(notes[0], 0);
